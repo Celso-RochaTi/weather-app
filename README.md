@@ -2,6 +2,8 @@
 
 Aplicativo de previsão do tempo em tempo real, feito com HTML, CSS e JavaScript puro, consumindo a API pública e gratuita [Open-Meteo](https://open-meteo.com/) (sem necessidade de chave de API).
 
+🔗 **Demo ao vivo:** https://weather-82e7evy4a-celso-rochatis-projects.vercel.app
+
 ## ✨ Funcionalidades
 
 - Busca de clima atual por nome da cidade
