@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>🌤️ Previsão do Tempo</h1>
+
+    <form id="searchForm" class="search-bar">
+      <input type="text" id="cityInput" placeholder="Digite uma cidade..." autocomplete="off" required>
+      <button type="submit">Buscar</button>
+    </form>
+
+    <p id="statusMsg" class="status-msg"></p>
+
+    <div id="weatherCard" class="weather-card hidden">
+      <div class="weather-main">
+        <span id="weatherIcon" class="weather-icon">☀️</span>
+        <span id="temperature" class="temperature">--°C</span>
+      </div>
+      <h2 id="cityName">--</h2>
+      <p id="weatherDesc" class="weather-desc">--</p>
+
+      <div class="weather-details">
+        <div class="detail">
+          <span class="detail-label">Sensação</span>
+          <span id="feelsLike" class="detail-value">--°C</span>
+        </div>
+        <div class="detail">
+          <span class="detail-label">Umidade</span>
+          <span id="humidity" class="detail-value">--%</span>
+        </div>
+        <div class="detail">
+          <span class="detail-label">Vento</span>
+          <span id="windSpeed" class="detail-value">-- km/h</span>
+        </div>
+      </div>
+    </div>
+
+    <ul id="recentList" class="recent-list"></ul>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
